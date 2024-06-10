@@ -8,6 +8,6 @@ const schema=mongoose.Schema(
     }
 )
 
-let productmodel=mongoose.Model("products",schema)
+let productmodel=mongoose.Model("products",schema);
 
 module.exports={productmodel}
